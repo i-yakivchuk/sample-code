@@ -1,0 +1,25 @@
+<svg width="26" height="20" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Player preview icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-12563 -2002)">
+<g id="Player preview icon">
+<g id="Rectangle 2">
+<use xlink:href="#path0_fill" transform="translate(12563 2002)" fill="#FFFFFF" fill-opacity="0.01"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(12563 2002)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(12563 2002)" fill="#4ABBFF"/>
+</g>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="translate(12569 2020)" fill="#4ABBFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 1C 0 0.447715 0.447715 0 1 0L 25 0C 25.5523 0 26 0.447715 26 1L 26 16C 26 16.5523 25.5523 17 25 17L 1 17C 0.447715 17 0 16.5523 0 16L 0 1Z"/>
+<path id="path1_stroke_2x" d="M 1 3L 25 3L 25 -3L 1 -3L 1 3ZM 23 1L 23 16L 29 16L 29 1L 23 1ZM 25 14L 1 14L 1 20L 25 20L 25 14ZM 3 16L 3 1L -3 1L -3 16L 3 16ZM 1 -3C -1.20914 -3 -3 -1.20914 -3 1L 3 1C 3 2.10457 2.10457 3 1 3L 1 -3ZM 25 3C 23.8954 3 23 2.10457 23 1L 29 1C 29 -1.20914 27.2091 -3 25 -3L 25 3ZM 23 16C 23 14.8954 23.8954 14 25 14L 25 20C 27.2091 20 29 18.2091 29 16L 23 16ZM 1 14C 2.10457 14 3 14.8954 3 16L -3 16C -3 18.2091 -1.20914 20 1 20L 1 14Z"/>
+<path id="path2_stroke" d="M 0.5 0L -0.5 0L -0.5 2L 0.5 2L 0.5 0ZM 13.5 2L 14.5 2L 14.5 0L 13.5 0L 13.5 2ZM 0.5 2L 13.5 2L 13.5 0L 0.5 0L 0.5 2Z"/>
+</defs>
+</svg>

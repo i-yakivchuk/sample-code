@@ -1,0 +1,162 @@
+[
+  {
+    "Id": 1,
+    "Name": "Administrator",
+    "Description": "Administrator",
+    "Rights": [
+      {
+        "Id": 8,
+        "Code": "enableTypeSelection",
+        "Name": "enableTypeSelection",
+        "Description": "enableTypeSelection"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Editor",
+    "Description": "Editor",
+    "Rights": [
+      {
+        "Id": 12,
+        "Code": "showEditorPlaylist",
+        "Name": "showEditorPlaylist",
+        "Description": "showEditorPlaylist"
+      },
+      {
+        "Id": 11,
+        "Code": "showEditorPreview",
+        "Name": "showEditorPreview",
+        "Description": "showEditorPreview"
+      },
+      {
+        "Id": 2,
+        "Code": "allowPublish",
+        "Name": "allowPublish",
+        "Description": "Allows users to publish messages"
+      },
+      {
+        "Id": 6,
+        "Code": "allowMusic",
+        "Name": "allowMusic",
+        "Description": "Allows users to edit the Music streams panel"
+      },
+      {
+        "Id": 9,
+        "Code": "enableTagSelection",
+        "Name": "enableTagSelection",
+        "Description": "enableTagSelection"
+      },
+      {
+        "Id": 8,
+        "Code": "enableTypeSelection",
+        "Name": "enableTypeSelection",
+        "Description": "enableTypeSelection"
+      },
+      {
+        "Id": 5,
+        "Code": "allowTouch",
+        "Name": "allowTouch",
+        "Description": "Allows users to use the Touch functionality"
+      },
+      {
+        "Id": 10,
+        "Code": "allowMessageTag",
+        "Name": "allowMessageTag",
+        "Description": "Aloows users to open the advanced PlayerTag selection popup for Messages"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Publisher",
+    "Description": "Publisher",
+    "Rights": [
+      {
+        "Id": 9,
+        "Code": "enableTagSelection",
+        "Name": "enableTagSelection",
+        "Description": "enableTagSelection"
+      },
+      {
+        "Id": 8,
+        "Code": "enableTypeSelection",
+        "Name": "enableTypeSelection",
+        "Description": "enableTypeSelection"
+      },
+      {
+        "Id": 10,
+        "Code": "allowMessageTag",
+        "Name": "allowMessageTag",
+        "Description": "Aloows users to open the advanced PlayerTag selection popup for Messages"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Director",
+    "Description": "Director",
+    "Rights": [
+      {
+        "Id": 2,
+        "Code": "allowPublish",
+        "Name": "allowPublish",
+        "Description": "Allows users to publish messages"
+      },
+      {
+        "Id": 6,
+        "Code": "allowMusic",
+        "Name": "allowMusic",
+        "Description": "Allows users to edit the Music streams panel"
+      },
+      {
+        "Id": 1,
+        "Code": "showAdminPanel",
+        "Name": "showAdminPanel",
+        "Description": "Allows users to edit settings in the advanced settings panel"
+      },
+      {
+        "Id": 7,
+        "Code": "showAdminCategories",
+        "Name": "showAdminCategories",
+        "Description": "Allows users to edit the categories made by a Admin user"
+      },
+      {
+        "Id": 3,
+        "Code": "showEditorContent",
+        "Name": "showEditorContent",
+        "Description": "Allows users to edit the messages of Editor users "
+      },
+      {
+        "Id": 9,
+        "Code": "enableTagSelection",
+        "Name": "enableTagSelection",
+        "Description": "enableTagSelection"
+      },
+      {
+        "Id": 8,
+        "Code": "enableTypeSelection",
+        "Name": "enableTypeSelection",
+        "Description": "enableTypeSelection"
+      },
+      {
+        "Id": 5,
+        "Code": "allowTouch",
+        "Name": "allowTouch",
+        "Description": "Allows users to use the Touch functionality"
+      },
+      {
+        "Id": 10,
+        "Code": "allowMessageTag",
+        "Name": "allowMessageTag",
+        "Description": "Aloows users to open the advanced PlayerTag selection popup for Messages"
+      },
+      {
+        "Id": 13,
+        "Code": "showMessageFilter",
+        "Name": "showMessageFilter",
+        "Description": "Show author filter in messages"
+      }
+    ]
+  }
+]

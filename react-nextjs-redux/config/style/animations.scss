@@ -1,0 +1,65 @@
+// Library
+@include animationHorizontal();
+@include animationTada();
+@include animationBurst();
+@include animationFloat();
+@include animationFalling();
+@include animationPulse();
+
+// Effects
+:global {
+    // Parent
+    .animator {
+        &:hover {
+
+            // Icons
+            .icon {
+                &.calendar,
+                &.envelope,
+                &.envelopefill,
+                &.binround {
+                    animation: horizontal 2s ease infinite;
+                }
+
+                &.share,
+                &.smartphone,
+                &.smartphonefill,
+                &.phone,
+                &.phonefill,
+                &.phonein,
+                &.phonefill,
+                &.phonetalk {
+                    animation: tada 2s linear infinite;
+                }
+
+                &.vr,
+                &.vrfill {
+                    animation: burst 2s infinite linear;
+                }
+
+                &.paperplane,
+                &.filter {
+                    animation: float 2s linear infinite;
+                }
+
+                &.inbox {
+                    animation: falling 2s linear infinite;
+                }
+
+                &.cross,
+                &.tick,
+                &.magnifyingglass {
+                    animation: pulse 2s linear infinite;
+                }
+            }
+        }
+    }
+
+    .constant-animator {
+        .icon {
+            &.pen {
+                animation: tada 2s linear infinite;
+            }
+        }
+    }
+}

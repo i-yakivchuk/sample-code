@@ -1,0 +1,69 @@
+package com.titustalk;
+
+import android.app.Application;
+
+import com.facebook.react.ReactApplication;
+import com.i18n.reactnativei18n.ReactNativeI18n;
+import com.corbt.keepawake.KCKeepAwakePackage;
+import com.rnimmersive.RNImmersivePackage;
+import com.RNFetchBlob.RNFetchBlobPackage;
+import com.ocetnik.timer.BackgroundTimerPackage;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+import com.rt2zz.reactnativecontacts.ReactNativeContacts;
+import com.oney.WebRTCModule.WebRTCModulePackage;
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.BV.LinearGradient.LinearGradientPackage;
+import ca.bigdata.voice.contacts.BDVSimpleContactsPackage;
+import com.facebook.react.ReactNativeHost;
+import com.zxcpoiu.incallmanager.InCallManagerPackage;
+import com.facebook.react.ReactPackage;
+import com.facebook.react.shell.MainReactPackage;
+import com.facebook.soloader.SoLoader;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class MainApplication extends Application implements ReactApplication {
+
+  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    @Override
+    public boolean getUseDeveloperSupport() {
+      return BuildConfig.DEBUG;
+    }
+
+    @Override
+    protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+            new ReactNativeI18n(),
+            new KCKeepAwakePackage(),
+            new RNImmersivePackage(),
+            new RNFetchBlobPackage(),
+            new BackgroundTimerPackage(),
+            new SplashScreenReactPackage(),
+            new ReactNativeContacts(),
+            new WebRTCModulePackage(),
+            new VectorIconsPackage(),
+            new LinearGradientPackage(),
+	    new InCallManagerPackage(),
+	    new BDVSimpleContactsPackage()
+      );
+    }
+
+    @Override
+    protected String getJSMainModuleName() {
+      return "index";
+    }
+  };
+
+  @Override
+  public ReactNativeHost getReactNativeHost() {
+    return mReactNativeHost;
+  }
+
+  @Override
+  public void onCreate() {
+    super.onCreate();
+    SoLoader.init(this, /* native exopackage */ false);
+  }
+}

@@ -1,0 +1,179 @@
+@import '../../../../config/style/variables.scss';
+@import '../../../../config/style/mixins.scss';
+
+
+.title {
+  color: $color-midnightblue;
+  font-family: $font-baseBold;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.error {
+  display: flex;
+  flex: 1;
+  align-self: flex-start;
+  padding-bottom: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: $font-baseBold;
+  color: $color-darkamaranth;
+
+  @include bp($breakpoint-md, false) {
+    font-size: 13px;
+  }
+}
+
+.addWishlistBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+
+  &:hover {
+    svg {
+      fill: darken($color-darkamaranth, 20) !important;
+    }
+
+    .addWishlistText {
+      color: darken($color-darkamaranth, 20) !important;
+    }
+  }
+}
+
+.addWishlistText {
+  color: $color-darkamaranth;
+  font-family: $font-baseBold;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.addWishlistIcon {
+  fill: $color-darkamaranth;
+  width: 34px;
+  height: 36px;
+  margin-right: 8px;
+}
+
+.icon {
+  fill: $color-white;
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: $space-8 0;
+  overflow: hidden;
+  opacity: 1 !important;
+}
+
+.header {
+  align-items: flex-start;
+  margin-bottom: $space-4;
+  justify-content: flex-end;
+
+  .headerForm {
+    width: 100%
+  }
+
+  @include bp($breakpoint-md) {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .headerForm {
+      width: 50%
+    }
+  }
+}
+
+.formError {
+  input {
+    border: 1px solid $color-darkamaranth!important;
+  }
+}
+
+.create {
+  max-width: 300px;
+  margin-bottom: $space-4;
+
+  @include bp($breakpoint-md) {
+    margin-bottom: 0;
+  }
+}
+
+.subHeading {
+  margin-bottom: 0 !important;
+  font-family: $font-baseRegular;
+  color: $color-midnightblue;
+}
+
+.list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.listInfo {
+  width: 100%;
+  padding: 0 $space-4 $space-4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.listTitle {
+  display: block;
+  margin-bottom: $space-1 !important;
+  @include typeLarge();
+  color: $color-white;
+  text-shadow: 0 2px 1em $color-black;
+}
+
+.propertyCount {
+  display: block;
+  @include typeMicro();
+  color: $color-white;
+  text-shadow: 0 2px 1em $color-black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: $space-1 0;
+  margin-top: 5px;
+}
+
+.emptyContent {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px 10px;
+}
+
+.emptyIcon {
+  fill: $color-white;
+  stroke: $color-darkamaranth;
+  width: 120px;
+  margin-bottom: 12px;
+}
+
+.emptyText {
+  color: $color-midnightblue;
+  font-family: $font-baseBold;
+  font-size: 18px;
+  line-height: 24px;
+}
+

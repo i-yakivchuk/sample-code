@@ -1,0 +1,93 @@
+@import '../../config/style/variables';
+
+.sortImagesContainer {
+  pointer-events: auto !important;
+  cursor: move !important;
+  box-shadow: 0 0 5px 5px rgba(245, 62, 70, 0.8);
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.mediaContainer {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    border: 0;
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+    /* Currently not supported in Opera but will be soon */
+    -o-user-select: none;
+    user-select: none;
+}
+
+.image {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 $gutter $gutter 0;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        border: 2px solid $color-white;
+    }
+
+    &:hover {
+        .icon {
+            opacity: 1;
+        }
+    }
+
+    &:active {
+        cursor: move;
+    }
+}
+
+    .icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        content: '';
+
+        svg {
+            fill: $color-white;
+        }
+    }
+
+.delete {
+    height: 40px;
+    padding: 3px 10px 0!important;
+    position: absolute!important;
+    top: 50px;
+    right: 10px;
+    background-color: $color-charcoal;
+    border: 0;
+
+    svg {
+        vertical-align: top;
+        fill: $color-white;
+    }
+}
+
+.formFooter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: $space-4;
+
+    button {
+        margin-left: $space-2;
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

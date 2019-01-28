@@ -1,0 +1,35 @@
+@import '../../../../config/style/variables';
+
+.searchWrapper {
+    position: relative;
+}
+
+    .icon {
+        font-size: 22px;
+        z-index: 6;
+        position: absolute;
+        top: 32%;
+        left: 18px;
+        fill: $color-darkamaranth;
+    }
+
+    .input {
+        margin: 0;
+        padding: 0 0 0 52px!important;
+        font-size: 16px !important;
+        font-family: $font-baseRegular !important;
+        color: $color-midnightblue !important;
+
+        &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $color-midnightblue;
+            opacity: 1; /* Firefox */
+        }
+
+        &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: $color-midnightblue;
+        }
+
+        &::-ms-input-placeholder { /* Microsoft Edge */
+            color: $color-midnightblue;
+        }
+    }

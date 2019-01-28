@@ -1,0 +1,65 @@
+<svg width="21" height="21" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>search</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2436 -123)">
+<rect x="2436" y="123" width="21" height="21" fill="#FFFFFF"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 2190 0L 4180 0L 4180 1200L 2190 1200L 2190 0Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Digital Signage Content List" clip-path="url(#clip-0)">
+<path d="M 2190 0L 4180 0L 4180 1200L 2190 1200L 2190 0Z" fill="#EEEEEE"/>
+<g id="Background DS">
+<g id="Background EA">
+<g id="Background DS">
+<g id="Color header">
+<use xlink:href="#path0_fill" transform="translate(2190 0)" fill="#646F79"/>
+</g>
+<g id="Color header Copy">
+<use xlink:href="#path0_fill" transform="translate(2190 0)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Message list block">
+<g id="Block bg" filter="url(#filter0_d)">
+<use xlink:href="#path1_fill" transform="translate(2410 63)" fill="#FFFFFF"/>
+</g>
+<g id="search">
+<g id="search">
+<g id="Oval">
+<use xlink:href="#path2_fill" transform="translate(2436 123)" fill="#596375" fill-opacity="0.01"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(2436 123)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(2436 123)" fill="#5A5B5E"/>
+</g>
+</g>
+<g id="Line">
+<use xlink:href="#path4_stroke" transform="translate(2450 137)" fill="#5A5B5E"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="2410" y="63" width="863" height="759" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.772549 0 0 0 0 0.772549 0 0 0 0 0.796078 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1990 -3.64153e-14 4.41869e-13 -164 1990 82)">
+<stop offset="0" stop-color="#136EB5"/>
+<stop offset="1" stop-color="#1DA1F3"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 1990 0L 1990 164L 0 164L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 863 0L 863 757L 833.387 757L 0 757L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 9 18C 13.9706 18 18 13.9706 18 9C 18 4.02944 13.9706 0 9 0C 4.02944 0 0 4.02944 0 9C 0 13.9706 4.02944 18 9 18Z"/>
+<path id="path3_stroke_2x" d="M 9 20C 15.0751 20 20 15.0751 20 9L 16 9C 16 12.866 12.866 16 9 16L 9 20ZM 20 9C 20 2.92487 15.0751 -2 9 -2L 9 2C 12.866 2 16 5.13401 16 9L 20 9ZM 9 -2C 2.92487 -2 -2 2.92487 -2 9L 2 9C 2 5.13401 5.13401 2 9 2L 9 -2ZM -2 9C -2 15.0751 2.92487 20 9 20L 9 16C 5.13401 16 2 12.866 2 9L -2 9Z"/>
+<path id="path4_stroke" d="M 1.66711 0.252893L 0.96 -0.454214L -0.454214 0.96L 0.252893 1.66711L 1.66711 0.252893ZM 4.73325 6.14746L 5.44036 6.85457L 6.85457 5.44036L 6.14746 4.73325L 4.73325 6.14746ZM 0.252893 1.66711L 4.73325 6.14746L 6.14746 4.73325L 1.66711 0.252893L 0.252893 1.66711Z"/>
+</defs>
+</svg>

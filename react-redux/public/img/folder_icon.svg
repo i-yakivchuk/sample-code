@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="70px" viewBox="0 0 89 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>folder_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.8739496%" y1="-0.189873418%" x2="49.8739496%" y2="99.6835443%" id="linearGradient-1">
+            <stop stop-color="#70CAF3" offset="0%"></stop>
+            <stop stop-color="#80CFF5" offset="48.1166295%"></stop>
+            <stop stop-color="#60BEEB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Digital-Signage-Playlist-no-playlistgroups" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-919.000000, -155.000000)">
+        <g id="folder_icon" transform="translate(918.000000, 148.000000)" fill-rule="nonzero">
+            <g id="Group" fill="#FFFFFF" fill-opacity="0">
+                <g id="Layer10_0_FILL-link">
+                    <g id="Layer10_0_FILL">
+                        <polygon id="Shape" points="92 94 92 0 0 0 0 94"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="folder_back" transform="translate(2.000000, 7.000000)" fill="#96D6F7">
+                <g id="Group">
+                    <g id="FlashAICB_Isolation_Mode__Path__1_0_Layer0_0_FILL-link">
+                        <g id="FlashAICB_Isolation_Mode__Path__1_0_Layer0_0_FILL">
+                            <path d="M80.9769231,11.916 C82.117094,11.916 83.0217949,12.048 83.6910256,12.312 C84.558547,12.624 85.2525641,13.188 85.7730769,14.004 C85.7978632,14.052 85.9589744,14.652 86.2564103,15.804 C86.5290598,16.836 86.7769231,17.328 87,17.28 C87,13.608 86.7149573,11.052 86.1448718,9.612 C85.475641,7.764 84.1371795,6.78 82.1294872,6.66 C81.0884615,6.588 74.9786325,6.54 63.8,6.516 C51.7042735,6.468 42.6076923,6.492 36.5102564,6.588 C34.6264957,6.612 33.1145299,6.348 31.974359,5.796 C30.7102564,5.196 29.6692308,4.152 28.8512821,2.664 C27.9589744,0.936 26.4594017,0.048 24.3525641,2.22261445e-17 C15.4790598,0.048 8.81153846,0.048 4.35,2.22261445e-17 C1.45,-0.024 0,1.548 0,4.716 L0.0743589744,14.292 C0.421367521,14.34 0.694017094,14.244 0.892307692,14.004 C1.53675214,13.116 2.4042735,12.516 3.49487179,12.204 C4.18888889,12.012 5.22991453,11.916 6.61794872,11.916 C14.0042735,11.988 38.7905983,11.988 80.9769231,11.916 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="folder_front" transform="translate(1.000000, 17.000000)" fill="url(#linearGradient-1)">
+                <g id="Group" transform="translate(0.514876, 0.666667)">
+                    <g id="FlashAICB_Isolation_Mode__Path__0_Layer1_0_FILL-link">
+                        <g id="FlashAICB_Isolation_Mode__Path__0_Layer1_0_FILL">
+                            <path d="M87.7495868,54.2592593 L87.7495868,4.40740741 C87.7495868,1.51851852 86.3152893,0.0740740741 83.4466942,0.0740740741 L4.52355372,0.0740740741 C1.65495868,0.0740740741 0.220661157,1.51851852 0.220661157,4.40740741 L0.220661157,54.2592593 C0.220661157,57.1481481 1.65495868,58.5925926 4.52355372,58.5925926 L83.4466942,58.5925926 C86.3152893,58.5925926 87.7495868,57.1481481 87.7495868,54.2592593 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

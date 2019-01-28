@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light.svg#alleynlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light-italic.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light-italic.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light-italic.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light-italic.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-light-italic.svg#alleynlight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book.svg#alleynbook') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book-italic.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book-italic.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book-italic.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book-italic.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-book-italic.svg#alleynbook_italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular.svg#alleyn_regularregular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular-italic.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular-italic.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular-italic.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular-italic.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-regular-italic.svg#alleynregular_italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium.svg#alleynmedium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium-italic.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium-italic.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium-italic.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium-italic.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-medium-italic.svg#alleynmedium_italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold.svg#alleynsemibold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold-italic.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold-italic.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold-italic.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold-italic.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-semibold-italic.svg#alleynsemibold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold.svg#alleynbold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alleyn';
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold-italic.eot');
+    src: url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold-italic.eot?#iefix') format('embedded-opentype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold-italic.woff2') format('woff2'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold-italic.woff') format('woff'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold-italic.ttf') format('truetype'),
+        url('https://s3-eu-west-1.amazonaws.com/resooma/fonts/alleyn-bold-italic.svg#alleynbold_italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'GT-Haptik-Bold';
+  src:
+          url('/static/fonts/GT-Haptik-Bold.eot?#iefix') format('embedded-opentype'),
+          url('/static/fonts/GT-Haptik-Bold.woff') format('woff'),
+          url('/static/fonts/GT-Haptik-Bold.woff2') format('woff2'),
+          url('/static/fonts/GT-Haptik-Bold.ttf') format('opentype'),
+          url('/static/fonts/GT-Haptik-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT-Haptik-Regular';
+  src:
+          url('/static/fonts/GT-Haptik-Regular.eot?#iefix') format('embedded-opentype'),
+          url('/static/fonts/GT-Haptik-Regular.woff') format('woff'),
+          url('/static/fonts/GT-Haptik-Regular.woff2') format('woff2'),
+          url('/static/fonts/GT-Haptik-Regular.ttf') format('opentype'),
+          url('/static/fonts/GT-Haptik-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

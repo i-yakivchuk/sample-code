@@ -1,0 +1,23 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+coverage
+
+# production
+build
+public/css
+public/swf
+public/swf/template-thumbs
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+.idea
+
+src/config/index.js
+src/config/mediamyne_dev.js
+package-lock.json

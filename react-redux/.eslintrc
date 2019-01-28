@@ -1,0 +1,25 @@
+{
+  "extends": "react-app",
+  "plugins": [
+    "react",
+    "import",
+    "jsx-a11y"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-confusing-arrow": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-no-bind": [0],
+    "react/prop-types": [1],
+    "react/require-default-props": [0]
+  }, "settings": {
+    "react": {
+      "createClass": "createReactClass", 
+      "pragma": "React",  
+      "version": "16.1", 
+      "flowVersion": "0.53" 
+    },
+    "propWrapperFunctions": [ "forbidExtraProps"]
+  }
+}

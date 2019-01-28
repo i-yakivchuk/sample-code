@@ -1,0 +1,45 @@
+@mixin gradientFade($direction: 'down', $startColor: $color-black, $endColor: $color-white, $startOpacity: 1, $endOpacity: 0) {
+	@if $direction == 'down' {
+		background: rgba($startColor, $startOpacity);
+		background: -moz-linear-gradient(top, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -webkit-gradient(top top, bottom top, color-stop(10%, rgba($startColor, $startOpacity)), color-stop(100%, rgba($endColor, $endOpacity)));
+		background: -webkit-linear-gradient(top, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -o-linear-gradient(top, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -ms-linear-gradient(top, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: linear-gradient(to bottom, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$endColor', endColorstr='$endColor', GradientType=$startOpacity);
+	}
+
+	@if $direction == 'up' {
+		background: rgba($startColor, $startOpacity);
+		background: -moz-linear-gradient(bottom, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -webkit-gradient(bottom top, top top, color-stop(10%, rgba($startColor, $startOpacity)), color-stop(100%, rgba($endColor, $endOpacity)));
+		background: -webkit-linear-gradient(bottom, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -o-linear-gradient(bottom, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -ms-linear-gradient(bottom, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: linear-gradient(to top, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor', GradientType=$startOpacity);
+	}
+
+	@if $direction == 'left' {
+		background: rgba($startColor, $startOpacity);
+		background: -moz-linear-gradient(right, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -webkit-gradient(right top, left top, color-stop(10%, rgba($startColor, $startOpacity)), color-stop(100%, rgba($endColor, $endOpacity)));
+		background: -webkit-linear-gradient(right, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -o-linear-gradient(right, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -ms-linear-gradient(right, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: linear-gradient(to left, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor', GradientType=$startOpacity);
+	}
+
+	@if $direction == 'right' {
+		background: rgba($startColor, $startOpacity);
+		background: -moz-linear-gradient(left, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(10%, rgba($startColor, $startOpacity)), color-stop(100%, rgba($endColor, $endOpacity)));
+		background: -webkit-linear-gradient(left, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -o-linear-gradient(left, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: -ms-linear-gradient(left, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		background: linear-gradient(to right, rgba($startColor, $startOpacity) 10%, rgba($endColor, $endOpacity) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$startColor', endColorstr='$endColor', GradientType=$endOpacity);
+	}
+}

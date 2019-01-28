@@ -1,0 +1,12 @@
+@import '../../../../config/style/variables.scss';
+@import '../../../../config/style/mixins.scss';
+
+.hero {
+    padding: $space-8 0;
+    background-color: $color-midnightblue;
+}
+
+    .title {
+        font-family: $font-baseBold;
+        color: $color-white;
+    }

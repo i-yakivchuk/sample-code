@@ -1,0 +1,29 @@
+<svg width="14" height="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>mobile-icon</title>
+ <desc>Created using Figma</desc>
+ <defs>
+  <path d="m0,1c0,-0.55228 0.44772,-1 1,-1l12,0c0.5523,0 1,0.44772 1,1l0,19c0,0.5523 -0.4477,1 -1,1l-12,0c-0.55228,0 -1,-0.4477 -1,-1l0,-19z" fill-rule="evenodd" id="path0_fill"/>
+  <path d="m0,0l10,0l0,13l-10,0l0,-13z" fill-rule="evenodd" id="path1_fill"/>
+  <path d="m1,2c0.55228,0 1,-0.44772 1,-1c0,-0.55228 -0.44772,-1 -1,-1c-0.55228,0 -1,0.44772 -1,1c0,0.55228 0.44772,1 1,1z" fill-rule="evenodd" id="path2_fill"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="24" width="16" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="Canvas">
+   <g id="mobile-icon">
+    <g id="Rectangle">
+     <use id="svg_1" x="0" y="0.479901" fill="#4D4D4D" xlink:href="#path0_fill"/>
+    </g>
+    <g id="Rectangle 2">
+     <use id="svg_2" x="2" y="4.479901" fill="#FFFFFF" xlink:href="#path1_fill"/>
+    </g>
+   </g>
+   <g id="Oval">
+    <use id="svg_3" x="6" y="18.479901" fill="#FFFFFF" xlink:href="#path2_fill"/>
+   </g>
+  </g>
+ </g>
+</svg>

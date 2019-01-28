@@ -1,0 +1,20 @@
+<svg width="23" height="16" viewBox="0 0 23 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-archive</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-12565 -2174)">
+<g id="icon-archive">
+<g id="Group">
+<g id="Shape">
+<use xlink:href="#path0_fill" transform="translate(12570 2174)" fill="#B373FF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(12565 2181)" fill="#B373FF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 6.5 11L 13 4.98819L 8.9375 4.98819L 8.9375 0L 4.04219 0L 4.04219 4.98819L 0 4.98819L 6.5 11Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 22.25 2.8481L 18.5846 0L 16.4285 0L 19.6114 3.20023L 17.0137 3.20023C 16.8957 3.20023 16.793 3.26237 16.7365 3.3504L 15.7919 5.70656L 7.1931 5.70656L 6.24851 3.3504C 6.19717 3.25719 6.08936 3.20023 5.97129 3.20023L 3.3788 3.20023L 6.57193 0L 4.40553 0L 0.740116 2.8481C 0.19595 3.16916 -0.0709986 3.83199 0.0162732 4.48447L 0.462899 7.94879C 0.580973 8.62716 0.960862 9 1.90545 9L 21.095 9C 22.0755 9 22.4195 8.60644 22.5375 7.94879L 22.9842 4.48447C 23.0714 3.81646 22.7942 3.16916 22.25 2.8481Z"/>
+</defs>
+</svg>

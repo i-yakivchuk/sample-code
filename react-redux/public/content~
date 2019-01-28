@@ -1,0 +1,41 @@
+				<div className="container-fluid">
+					<div id="digitalsignage">
+						<section className="content-left">
+							<div className="block leftTop">
+								<div className="content-title">
+									<div className="toggleListTiles">
+										<div className="toggleTiles"></div>
+										<div className="toggleList active"></div>
+									</div>
+									<div className="contentFilterBar"></div>
+								</div>
+								<div className="table">
+
+									<div className="wrapper">
+										<div id="messageList" className="messageList"></div>
+									</div>
+									
+								</div>
+							</div>
+
+							<div className="block leftBottom">
+
+							</div>
+
+						</section>
+
+						<section className="content-right">
+							<div className="block rightTop">
+								<div className="template-content">
+									<div id="flashContent">
+										<div className="as3" id="flashtemplate" ><img src="images/thumb.jpg"/></div>
+									</div>
+								</div>
+								<div className="templateControls">
+									<img src="images/template.jpg"/>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+

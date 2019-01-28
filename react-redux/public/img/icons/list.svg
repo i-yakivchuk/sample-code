@@ -1,0 +1,62 @@
+<svg width="13" height="13" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>list icon selected</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3139 1734)">
+<rect x="3139" y="-1734" width="13" height="13" fill="#FFFFFF"/>
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 2093 -1821L 4083 -1821L 4083 -621L 2093 -621L 2093 -1821Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Digital Signage Content Thumbs Filter2" clip-path="url(#clip-0)">
+<path d="M 2093 -1821L 4083 -1821L 4083 -621L 2093 -621L 2093 -1821Z" fill="#EEEEEE"/>
+<g id="Background DS">
+<g id="Background EA">
+<g id="Background DS">
+<g id="Color header">
+<use xlink:href="#path0_fill" transform="translate(2093 -1821)" fill="#646F79"/>
+</g>
+<g id="Color header Copy">
+<use xlink:href="#path0_fill" transform="translate(2093 -1821)" fill="url(#paint1_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<g id="Message list block">
+<g id="Block bg" filter="url(#filter0_d)">
+<use xlink:href="#path1_fill" transform="translate(2313 -1758)" fill="#FFFFFF"/>
+</g>
+<g id="list icon unselected">
+<g id="list icon unselected">
+<g id="list icon selected">
+<g id="Rectangle 1">
+<use xlink:href="#path2_fill" transform="translate(3139 -1734)" fill="#596375"/>
+</g>
+<g id="Rectangle 1">
+<use xlink:href="#path2_fill" transform="translate(3139 -1728)" fill="#596375"/>
+</g>
+<g id="Rectangle 1">
+<use xlink:href="#path2_fill" transform="translate(3139 -1722)" fill="#596375"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="2313" y="-1758" width="863" height="759" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="0" dy="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.772549 0 0 0 0 0.772549 0 0 0 0 0.796078 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1990 -3.64153e-14 4.41869e-13 -164 1990 82)">
+<stop offset="0" stop-color="#136EB5"/>
+<stop offset="1" stop-color="#1DA1F3"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 1990 0L 1990 164L 0 164L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0 0L 863 0L 863 757L 833.387 757L 0 757L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 0 0L 13 0L 13 1L 0 1L 0 0Z"/>
+</defs>
+</svg>

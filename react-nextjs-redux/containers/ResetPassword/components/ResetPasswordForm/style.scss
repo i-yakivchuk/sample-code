@@ -1,0 +1,28 @@
+@import '../../../../config/style/variables';
+@import '../../../../config/style/mixins';
+
+.recaptcha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: $space-4;
+}
+
+.status {
+    margin-bottom: 0;
+    @include typeRegular();
+    color: $color-foggy;
+
+    svg {
+        fill: $color-foggy;
+    }
+}
+
+    .link {
+        margin-left: $gutter/2;
+        color: $color-amaranth!important;
+
+        &:hover {
+            text-decoration: underline!important;
+        }
+    }

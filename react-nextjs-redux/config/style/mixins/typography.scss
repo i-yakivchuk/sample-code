@@ -1,0 +1,83 @@
+@mixin typeTitle1($margin: 0 0 $space-4, $padding: 0) {
+    margin: $margin;
+    padding: $padding;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+
+    @include bp($breakpoint-sm) {
+        font-size: 44px;
+        line-height: 56px;
+    }
+}
+
+@mixin typeTitle2($margin: 0 0 $space-4, $padding: 0) {
+    margin: $margin;
+    padding: $padding;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+@mixin typeTitle3($margin: 0 0 $space-3, $padding: 0) {
+    margin: $margin;
+    padding: $padding;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 400;
+
+    @include bp($breakpoint-sm) {
+        color: $color-midnightblue;
+        font-family: $font-baseBold;
+        font-size: 42px;
+        line-height: 78px;
+    }
+}
+
+@mixin typeJumbo($margin: 0 0 $space-4, $padding: 0) {
+    margin: $margin;
+    padding: $padding;
+    font-size: 145px;
+    line-height: 160px;
+    font-weight: 600;
+}
+
+@mixin typeLarge($margin: 0 0 $space-3, $padding: 0) {
+    margin: $margin;
+    padding: $padding;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+@mixin typeRegular($fontSize: 16px, $lineHeight: 28px, $fontFamily: 'GT-Haptik-Regular') {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+}
+
+@mixin typeSmall($fontSize: 14px, $lineHeight: 18px) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
+}
+
+@mixin typeMicro($fontSize: 12px, $lineHeight: 16px) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@mixin link($display: inline-block, $color: $color-charcoal, $margin: 8px 0 0) {
+    display: $display;
+    margin: $margin;
+    font-size: 16px;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: $color;
+
+    &:hover {
+        color: $color;
+    }
+}

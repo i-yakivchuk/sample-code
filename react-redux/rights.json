@@ -1,0 +1,84 @@
+[ {
+    "Id": 1,
+    "Code": "showAdminPanel",
+    "Name": "showAdminPanel",
+    "Description": "Allows users to edit settings in the advanced settings panel"
+  },
+  {
+    "Id": 2,
+    "Code": "allowPublish",
+    "Name": "allowPublish",
+    "Description": "Allows users to publish messages"
+  },
+  {
+    "Id": 3,
+    "Code": "showEditorContent",
+    "Name": "showEditorContent",
+    "Description": "Allows users to edit the messages of Editor users "
+  },
+  {
+    "Id": 4,
+    "Code": "allowSupport",
+    "Name": "allowSupport",
+    "Description": "Allows a user to lofin as a support user, a user that can login for every user using (username)>>"
+  },
+  {
+    "Id": 5,
+    "Code": "allowTouch",
+    "Name": "allowTouch",
+    "Description": "Allows users to use the Touch functionality"
+  },
+  {
+    "Id": 6,
+    "Code": "allowMusic",
+    "Name": "allowMusic",
+    "Description": "Allows users to edit the Music streams panel"
+  },
+  {
+    "Id": 7,
+    "Code": "showAdminCategories",
+    "Name": "showAdminCategories",
+    "Description": "Allows users to edit the categories made by a Admin user"
+  },
+  {
+    "Id": 8,
+    "Code": "enableTypeSelection",
+    "Name": "enableTypeSelection",
+    "Description": "enableTypeSelection"
+  },
+  {
+    "Id": 9,
+    "Code": "enableTagSelection",
+    "Name": "enableTagSelection",
+    "Description": "enableTagSelection"
+  },
+  {
+    "Id": 10,
+    "Code": "allowMessageTag",
+    "Name": "allowMessageTag",
+    "Description": "Aloows users to open the advanced PlayerTag selection popup for Messages"
+  },
+  {
+    "Id": 11,
+    "Code": "showEditorPreview",
+    "Name": "showEditorPreview",
+    "Description": "showEditorPreview"
+  },
+  {
+    "Id": 12,
+    "Code": "showEditorPlaylist",
+    "Name": "showEditorPlaylist",
+    "Description": "showEditorPlaylist"
+  },
+  {
+    "Id": 13,
+    "Code": "showMessageFilter",
+    "Name": "showMessageFilter",
+    "Description": "Show author filter in messages"
+  },
+  {
+    "Id": 14,
+    "Code": "allowMobile",
+    "Name": "allowMobile",
+    "Description": "Allow user to assign messages to mobiles"
+  } ]

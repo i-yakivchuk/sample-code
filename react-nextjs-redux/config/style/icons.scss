@@ -1,0 +1,238 @@
+:global {
+    .icon {
+        display: inline-block;
+        width: 20px;
+        pointer-events: none;
+
+        // New
+        &.vr,
+        &.info,
+        &.dislike {
+            width: 30px;
+        }
+
+        // Old
+        &.inline {
+            display: block;
+            margin-right: 10px;
+            float: left;
+        }
+
+        &.end {
+            display: inline-block;
+            margin-right: 0;
+            margin-left: 10px;
+        }
+
+        &.bell {
+            width: 15px;
+        }
+
+        &.film {
+            width: 15px;
+        }
+
+        &.alcohol {
+            width: 15px;
+        }
+
+        &.student {
+            width: 18px;
+        }
+
+        &.clothes {
+            width: 18px;
+        }
+
+        &.wheelchair {
+            width: 18px;
+        }
+
+        &.envelope,
+        &.envelopefill {
+            width: 20px;
+        }
+
+        &.bed {
+            width: 19px;
+        }
+
+        &.calendar {
+            width: 18px;
+        }
+
+        &.pen {
+            width: 16px;
+        }
+
+        &.clipboardpencil {
+            width: 18px;
+        }
+
+        &.marker,
+        &.markerfill {
+            width: 10px;
+        }
+        
+        &.watch {
+            width: 12px;
+            transform: translateY(-1px);
+        }
+
+        &.binround {
+            width: 16px;
+        }
+
+        &.filter {
+            width: 16px;
+        }
+
+        &.arrowup {
+            width: 14px;
+        }
+
+        &.paperclip {
+            width: 22px;
+            transform: translateY(-1px);
+        }
+
+        &.cross {
+            width: 14px;
+        }
+
+        &.retry {
+            width: 16px;
+        }
+
+        &.smartphone,
+        &.smartphonefill {
+            width: 12px;
+        }
+
+        &.plus {
+            width: 16px;
+        }
+
+        &.minus {
+            width: 16px;
+        }
+        
+        &.lock {
+            width: 14px;
+            transform: translateY(-2px);
+        }
+
+        &.fingersvictory {
+            width: 15px;
+        }
+
+        &.undo {
+            width: 22px;
+        }
+
+        &.phone,
+        &.phonefill {
+            width: 18px;
+        }
+
+        &.amp {
+            width: 14px;
+        }
+
+        &.facebook {
+            width: 9px;
+        }
+
+        &.youtube {
+            width: 20px;
+        }
+        
+        
+        &.twitter {
+            width: 22px;
+        }
+        
+        &.google {
+            width: 19px;
+        }
+        
+
+        &.googleplus {
+            width: 26px;
+        }
+
+        &.pin, &.pinfeatured {
+            width: 14px;
+        }
+
+        &.link {
+            width: 16px;
+        }
+
+        &.eye {
+            width: 19px;
+        }
+
+        &.electricity {
+            width: 14px;
+        }
+
+        &.plug {
+            width: 18px;
+        }
+
+        &.water {
+            width: 12px;
+        }
+
+        &.tv {
+            transform: translateY(-2px);
+        }
+
+        &.flame {
+            width: 16px;
+        }
+
+        &.washingmachine {
+            width: 17px;
+        }
+
+        &.dishwasher,
+        &.oven {
+            width: 17px;
+        }
+
+        &.fridgefreezer {
+            width: 14px;
+        }
+
+        &.fence {
+            width: 18px;
+        }
+
+        &.big {
+            width: 28px;
+
+            &.satellite {
+                width: 24px;
+            }
+
+            &.marker,
+            &.markerfill {
+                width: 20px;
+            }
+
+            &.wifi {
+                width: 26px;
+            }
+            
+            &.bike {
+                width: 26px;
+            }
+            
+            &.glassses {
+                width: 26px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@import '../../../../config/style/variables.scss';
+@import '../../../../config/style/mixins.scss';
+
+.blog {
+    background-color: $color-aliceblue;
+    opacity: 1!important;
+}
+
+    .columns {
+        padding: $space-8 0;
+    }
+
+        .main {
+            position: relative;
+
+            @include bp($breakpoint-md) {
+                padding-right: $gutter;
+            }
+        }
+
+            .loading {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: $color-aliceblue;
+                opacity: .5;
+                z-index: 3;
+            }
+
+                .indicator {
+                    width: 20px;
+                    margin: 0;
+                    padding: 0;
+                }
+
+            .mainSearch {
+                display: none;
+                margin-top: $space-8;
+
+                @include bp($breakpoint-md) {
+                    display: block;
+                }
+            }
+
+            .mainTopSearch {
+                display: none;
+                margin-bottom: $space-8;
+
+                @include bp($breakpoint-md) {
+                    display: block;
+                }
+            }
+
+        .sidebar {
+            display: none;
+            padding: 0 0 0 $gutter;
+
+            @include bp($breakpoint-md) {
+                display: block;
+            }
+        }
+
+            .sidebarSearch {
+                margin-bottom: $space-8;
+            }
+
+            .ambassador {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 400px;
+                min-height: 400px;
+                margin: $space-9 auto 0;
+                padding: $space-8 $space-4;
+                text-align: center;
+                background: $color-amaranth url('https://s3-eu-west-1.amazonaws.com/universitycribs-live/blog/blog-ambassador.svg');
+                background-size: 300px;
+                background-position: center 110%;
+                background-repeat: no-repeat;
+            }
+
+                .title {
+                    @include typeTitle2();
+                    color: $color-white;
+
+                    @include bp($breakpoint-md) {
+                        font-size: 19px;
+                        line-height: 24px;
+                    }
+
+                    @include bp($breakpoint-lg) {
+                        font-size: 32px;
+                        line-height: 36px;
+                    }
+                }

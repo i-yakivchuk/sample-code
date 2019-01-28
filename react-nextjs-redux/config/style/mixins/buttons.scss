@@ -1,0 +1,215 @@
+@import '../variables';
+
+@mixin button() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 62px;
+    padding: 0 35px;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: $font-baseBold;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color ease .5s;
+
+    &:focus, &:active {
+        outline: 0;
+        transition: background-color ease .15s;
+    }
+}
+
+@mixin smallButton() {
+    height: 32px!important;
+    padding: 0 12px!important;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 16px!important;
+    text-align: center;
+    overflow: hidden;
+}
+
+@mixin largeButtonRadius($top: 8px, $bottom: 8px, $left: 8px, $right: 8px) {
+    height: 58px;
+    padding: 0 50px;
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: $top $left $bottom $right;
+    text-align: center;
+    overflow: hidden;
+}
+
+@mixin largeButton() {
+    height: 62px;
+    padding: 0 50px;
+    position: relative;
+    font-size: 18px;
+    line-height: 18px;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+@mixin primaryButton() {
+    background-color: $color-amaranth;
+    color: $color-white;
+    text-align: center;
+
+    &:hover {
+        background-color: lighten($color-amaranth, 5);
+    }
+
+    &:active {
+        background-color: lighten($color-amaranth, 10);
+    }
+
+    svg {
+        fill: $color-white;
+    }
+
+    a {
+        color: $color-white;
+    }
+}
+
+@mixin secondaryButton() {
+    height: 62px;
+    background-color: $color-foggy;
+    color: $color-white;
+    text-align: center;
+    border-radius: 10px !important;
+
+    &:hover {
+        background-color: lighten($color-foggy, 5);
+    }
+
+    &:active {
+        background-color: lighten($color-foggy, 10);
+    }
+
+    svg {
+        fill: $color-white;
+    }
+
+    a {
+        color: $color-white;
+    }
+}
+
+@mixin darkButton() {
+    background-color: #140830;
+    color: $color-white;
+    text-align: center;
+    line-height: 115%;
+    border-radius: 10px !important;
+    height: 62px!important;
+
+    svg {
+        fill: $color-white;
+    }
+
+    a {
+        color: $color-white;
+    }
+
+    &:hover {
+        background-color: lighten(#140830, 10);
+    }
+
+    &:active {
+        background-color: lighten(#140830, 10);
+    }
+}
+
+@mixin midnightBlueButton() {
+  background-color: $color-midnightblue!important;
+  color: $color-white;
+  text-align: center;
+
+  svg {
+    fill: $color-white;
+  }
+
+  a {
+    color: $color-white;
+  }
+
+  &:hover {
+    background-color: $color-midnightblue!important;
+  }
+
+  &:active {
+    background-color: lighten($color-midnightblue, 10)!important;
+  }
+}
+
+@mixin mahoganyButton() {
+    background-color: $color-darkamaranth!important;
+    color: $color-white;
+    text-align: center;
+
+    svg {
+        fill: $color-white;
+    }
+
+    a {
+        color: $color-white;
+    }
+
+    &:hover {
+        background-color: lighten($color-darkamaranth, 3)!important;
+    }
+
+    &:active {
+        background-color: lighten($color-darkamaranth, 10)!important;
+    }
+}
+
+@mixin whiteButton() {
+    background-color: $color-white;
+    color: $color-midnightblue;
+    text-align: center;
+    height: 62px!important;
+    line-height: 115%;
+    border-radius: 10px !important;
+
+    svg {
+        fill: $color-midnightblue;
+    }
+
+    a {
+        color: $color-midnightblue;
+    }
+
+    &:hover {
+        background-color: lighten($color-white, 5)!important;
+    }
+
+    &:active {
+        background-color: lighten($color-white, 5)!important;
+    }
+}
+
+@mixin transparentButton() {
+    background-color: transparent;
+    color: $color-foggy;
+    text-align: center;
+    border: 1px solid $color-foggy;
+    border-radius: 3px;
+
+    svg {
+        fill: $color-foggy;
+    }
+
+    a {
+        color: $color-foggy;
+    }
+}

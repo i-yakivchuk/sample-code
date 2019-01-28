@@ -1,0 +1,45 @@
+:global {
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+        margin-top: 0;
+        font-family: $fontstack-primary;
+        color: $color-charcoal;
+    }
+
+    h1, .h1 {
+        @include typeTitle1();
+    }
+
+    h2, .h2 {
+        @include typeTitle2();
+    }
+
+    h3, .h3 {
+        @include typeTitle3();
+    }
+
+    h4, .h4 {
+        @include typeLarge();
+    }
+
+    p {
+        @include typeRegular();
+        margin-top: 0;
+        margin-bottom: 19px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    a {
+        cursor: pointer;
+    }
+
+    .typeRegular {
+        @include typeRegular();
+    }
+    
+    .typeSmall {
+        @include typeSmall();
+    }
+}

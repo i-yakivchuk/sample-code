@@ -1,0 +1,33 @@
+@mixin hover {
+    &:hover { @content }
+}
+
+@mixin hover-focus {
+    &:focus { @content }
+    @include hover { @content }
+}
+
+@mixin plain-hover-focus {
+    &,
+    &:focus {
+        @content
+    }
+    @include hover { @content }
+}
+
+@mixin hover-focus-active {
+    &:focus,
+    &:active {
+        @content
+    }
+    @include hover { @content }
+}
+
+@mixin noSelect() {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

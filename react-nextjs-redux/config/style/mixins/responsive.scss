@@ -1,0 +1,11 @@
+@mixin bp($breakpoint, $minWidth: true) {
+    @if $minWidth {
+        @media only screen and (min-width: $breakpoint) {
+            @content;
+        }
+    } @else {
+        @media only screen and (max-width: $breakpoint) {
+            @content;
+        }
+    }
+}

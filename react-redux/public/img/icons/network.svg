@@ -1,0 +1,36 @@
+<svg width="23" height="25" viewBox="0 0 23 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Network icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-12564 -2113)">
+<g id="Network icon">
+<g id="Oval 2">
+<use xlink:href="#path0_fill" transform="translate(12581 2113)" fill="#9A8BFF"/>
+</g>
+<g id="Oval 2">
+<use xlink:href="#path0_fill" transform="translate(12564 2113)" fill="#9A8BFF"/>
+</g>
+<g id="Oval 2">
+<use xlink:href="#path1_fill" transform="translate(12572 2120)" fill="#9A8BFF"/>
+</g>
+<g id="Oval 2">
+<use xlink:href="#path1_fill" transform="translate(12572 2131)" fill="#9A8BFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path2_stroke" transform="translate(12567 2116)" fill="#9A8BFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path3_stroke" transform="translate(12575 2114)" fill="#9A8BFF"/>
+</g>
+<g id="Line">
+<use xlink:href="#path4_stroke" transform="translate(12574 2123)" fill="#9A8BFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 3 6C 4.65685 6 6 4.65685 6 3C 6 1.34315 4.65685 0 3 0C 1.34315 0 0 1.34315 0 3C 0 4.65685 1.34315 6 3 6Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 3.5 7C 5.433 7 7 5.433 7 3.5C 7 1.567 5.433 0 3.5 0C 1.567 0 0 1.567 0 3.5C 0 5.433 1.567 7 3.5 7Z"/>
+<path id="path2_stroke" d="M 0.829252 0.123712L 0.452964 -0.205541L -0.205541 0.547036L 0.170748 0.876288L 0.829252 0.123712ZM 8.17075 7.87629L 8.54704 8.20554L 9.20554 7.45296L 8.82925 7.12371L 8.17075 7.87629ZM 0.170748 0.876288L 8.17075 7.87629L 8.82925 7.12371L 0.829252 0.123712L 0.170748 0.876288Z"/>
+<path id="path3_stroke" d="M 0.165518 9.12835L -0.206129 9.46284L 0.462835 10.2061L 0.834482 9.87165L 0.165518 9.12835ZM 10.8345 0.871647L 11.2061 0.537165L 10.5372 -0.206129L 10.1655 0.128353L 10.8345 0.871647ZM 0.834482 9.87165L 10.8345 0.871647L 10.1655 0.128353L 0.165518 9.12835L 0.834482 9.87165Z"/>
+<path id="path4_stroke" d="M 2 0.5L 2 0L 1 0L 1 0.5L 2 0.5ZM 1 11.5L 1 12L 2 12L 2 11.5L 1 11.5ZM 1 0.5L 1 11.5L 2 11.5L 2 0.5L 1 0.5Z"/>
+</defs>
+</svg>

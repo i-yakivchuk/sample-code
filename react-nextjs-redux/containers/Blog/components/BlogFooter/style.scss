@@ -1,0 +1,18 @@
+@import '../../../../config/style/variables';
+@import '../../../../config/style/mixins';
+
+.footer {
+    padding: $space-6 $space-2;
+    background-color: $color-midnightblue;
+    text-align: center;
+
+    @include bp($breakpoint-md) {
+        display: none;
+    }
+
+    img {
+        display: inline-block;
+        width: 80%;
+        max-width: 200px;
+    }
+}

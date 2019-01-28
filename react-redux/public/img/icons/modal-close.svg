@@ -1,0 +1,19 @@
+<svg width="28" height="28" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Close cross dark</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5792 -151)">
+<g id="Close cross dark">
+<g id="Close cross dark">
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="translate(5794 153)" fill="#979797"/>
+</g>
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="matrix(-1 0 0 1 5818 153)" fill="#979797"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 24.7071 0.707107L 25.4142 0L 24 -1.41421L 23.2929 -0.707107L 24.7071 0.707107ZM -0.707107 23.2929L -1.41421 24L 0 25.4142L 0.707107 24.7071L -0.707107 23.2929ZM 23.2929 -0.707107L -0.707107 23.2929L 0.707107 24.7071L 24.7071 0.707107L 23.2929 -0.707107Z"/>
+</defs>
+</svg>

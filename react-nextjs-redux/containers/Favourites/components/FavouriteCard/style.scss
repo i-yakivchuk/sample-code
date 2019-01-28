@@ -1,0 +1,64 @@
+@import '../../../../config/style/variables.scss';
+@import '../../../../config/style/mixins.scss';
+
+
+.card {
+  &:hover {
+    .details {
+      background-color: lighten($color-midnightblue, 5);
+    }
+  }
+}
+
+.image {
+  width: 100%;
+  padding-top: percentage(2/4);
+  position: relative;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: $space-4;
+}
+
+.placeholder {
+  width: 100%;
+  padding-top: percentage(2/4);
+  position: relative;
+  background-color: $color-darkLinkwater;
+  background-image: url('/static/svg/logo-red-resooma.svg');
+  background-size: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: $space-4;
+}
+
+.details {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 8px 15px;
+  background-color: $color-midnightblue;
+}
+
+.title {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 500;
+  color: $color-white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: $font-baseBold;
+}
+
+.subTitle {
+  font-size: 15px;
+  line-height: 15px;
+  color: $color-aliceblue;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: $font-baseRegular;
+}

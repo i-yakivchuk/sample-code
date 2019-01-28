@@ -1,0 +1,39 @@
+@import '../../../../config/style/variables.scss';
+@import '../../../../config/style/mixins.scss';
+
+.container {
+    padding: $space-4 $space-8;
+    background-color: $color-white;
+}
+
+    .listItems {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            margin-top: 30px;
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .none {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        @include typeMicro();
+        color: $color-foggy;
+        text-align: center;
+    
+        @include bp($breakpoint-md) {
+            margin-top: 0;
+        }
+
+        svg {
+            fill: $color-foggy;
+        }
+    }
