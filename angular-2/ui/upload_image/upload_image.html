@@ -1,0 +1,20 @@
+<div class="user_data clearfix">
+    <div class="user_photo">
+        <div class="ava">
+            <img [src]="photo || '../stylesheet/img/layout/friend_ava.svg'" alt="" width="80" height="80" />
+        </div>
+    </div>
+    <div class="user_info edit_btns">
+        <a [ngClass]="{'edit': !isAdd, 'upload_btn': isAdd}" (click)="triggerToInput()">
+            <i *ngIf="!isAdd" class="icon icon_pencil"></i>
+            <input type="file"
+                   (change)="handleUpload($event)"
+                   #uploadPicture
+                   ngClass="visibility: hidden"
+            />
+        </a>
+        <a *ngIf="!isAdd" class="delete" (click)="removePhoto()">
+            <i class="icon icon_del_cart"></i>
+        </a>
+    </div>
+</div>

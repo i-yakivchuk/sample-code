@@ -1,0 +1,36 @@
+<div role="tabpanel" class="tab-pane" id="sportsbook_tab">
+    <div class="search_form">
+        <form action="#" method="post">
+            <div class="form-group">
+                <i class="icon icon_search"></i>
+                <input #searchfield class="form-control search-field" name="search"
+                       placeholder="Enter team, league or sport to filter..."
+                       type="text"
+                       autocomplete="off"
+                       (keyup)="searchHandler(searchfield.value)">
+            </div>
+        </form>
+    </div>
+    <div class="sportsbook">
+        <div class="white_box" *ngFor="let sport of defaultSportsbook">
+            <div class="default_list">
+                <sportsbook-game [sport]="sport" (chooseToBet)="chooseToBet($event)" [editable]="false"></sportsbook-game>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_fix_button" (click)="goToSingleBet()">
+        <a>
+            <span class="button_icon">
+                <i class="icon icon_arrow-right"></i>
+            </span>
+            <span class="button_content">
+                Proceed
+                <small>
+                    You have chosen
+                    <span>{{proceedGamesCount}}</span>
+                    games
+                </small>
+            </span>
+        </a>
+    </div>
+</div>

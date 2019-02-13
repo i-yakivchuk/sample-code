@@ -1,0 +1,76 @@
+<div role="tabpanel" class="tab-pane" id="profile_tab">
+    <div class="user_data clearfix">
+        <div class="user_photo">
+            <div class="ava">
+                <img [src]="user.photo.thumbnail || '../stylesheet/img/layout/friend_ava.svg'" alt="" width="80" height="80" />
+            </div>
+            <a [routerLink]="['/edit_profile']" class="edit">
+                <i class="icon icon_pencil"></i>
+            </a>
+        </div>
+        <div class="user_info">
+            <div class="user_name">{{user.fullname}}</div>
+            <div class="user_country">
+                {{user.city}}<span *ngIf="user.city && user.country.id">,</span>
+                {{user.country.text}}</div>
+        </div>
+    </div>
+    <div class="profile_level">
+        <div class="inner">
+            <div class="lavel_icon"><i class="icon icon_level"></i></div>
+            <div class="clearfix">
+                <div class="lavel_name">
+                    Level <span>1</span>
+                </div>
+                <div class="experience">100 / 1000 XP</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><i class="icon icon_close-small"></i></button>
+        <h3>Congratulations!</h3>
+        <p>You became our beta testers, we are grateful and encourage you to get 20PC for inviting your friends.</p>
+    </div>
+    <div class="white_box">
+        <div class="inner">
+            <div class="box_header clearfix">
+                <h3>Favourites</h3>
+                <div [hidden]="true" class="control_btn">
+                    <a href="#" class="xs-btn green_btn"><i class="icon icon_plus"></i>Add</a>
+                </div>
+            </div>
+            <div class="filter_list">
+                <a href="#">Soccer<span class="remove"><i class="icon icon_close-xs"></i></span></a>
+                <a href="#">Premier League<span class="remove"><i class="icon icon_close-xs"></i></span></a>
+                <a href="#">Tennis<span class="remove"><i class="icon icon_close-xs"></i></span></a>
+                <a href="#">Volleyball<span class="remove"><i class="icon icon_close-xs"></i></span></a>
+                <a href="#">Boxing<span class="remove"><i class="icon icon_close-xs"></i></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="white_box">
+        <div class="inner">
+            <div class="box_header clearfix">
+                <h3>Achievements</h3>
+                <div class="control_btn">
+                    <a href="#" class="xs-btn green_btn right_icon">View All<i class="icon icon_right_arrow"></i></a>
+                </div>
+            </div>
+            <div class="achievements_list">
+                <span><img src="../stylesheet/img/img1.png" alt="" width="29" height="38"/></span>
+                <span><img src="../stylesheet/img/img2.png" alt="" width="28" height="35" /></span>
+                <span><img src="../stylesheet/img/img3.png" alt="" width="28" height="40"/></span>
+            </div>
+        </div>
+    </div>
+    <div class="logout">
+        <a (click)="logout()">
+            <i class="icon icon_logout"></i>
+            <span>Log Out</span>
+        </a>
+    </div>
+</div>

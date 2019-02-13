@@ -1,0 +1,19 @@
+<div class="item" (click)="chooseGame($event, sport)" [ngClass]="{'active': isActiveGame }">
+    <span (click)="removeGame(sport?.id)" *ngIf="editable" class="remove"><i class="icon icon_close-xs"></i></span>
+    <div class="info">
+        <span class="date_time">{{sport?.time | date:"dd.MM / H:mm"}}</span>
+        <span class="details">{{sport?.sport | titleCase}}<span *ngIf="sport?.league">.&nbsp;{{sport?.league}}</span></span>
+    </div>
+    <div class="title">{{sport?.home_team}} - {{sport?.away_team}}</div>
+    <div class="rate" *ngFor="let stake of sport.odds">
+        <div class="particle" (click)="chooseGameStake(sport, homeTeam, stake?.money_line_home)" [ngClass]="{'active': isActive(homeTeam) }">
+            <span>{{typeStakeList[homeTeam]}}</span>{{stake?.money_line_home}}
+        </div>
+        <div class="particle" (click)="chooseGameStake(sport, drawLine, stake?.draw_line)" [ngClass]="{'active': isActive(drawLine) }">
+            <span><i class="icon icon_close-big"></i></span>{{stake?.draw_line}}
+        </div>
+        <div class="particle" (click)="chooseGameStake(sport, awayTeam, stake?.money_line_away)" [ngClass]="{'active': isActive(awayTeam) }">
+            <span>{{typeStakeList[awayTeam]}}</span>{{stake?.money_line_away}}
+        </div>
+    </div>
+</div>

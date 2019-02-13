@@ -1,0 +1,29 @@
+<div class="white_box" *ngIf="winners.length > 0">
+  <div class="more_wins">
+    <h4>Also your friends won</h4>
+    <div class="friends_list">
+      <div class="item" *ngFor="let win of winners">
+        <a class="clearfix">
+          <span class="friends_avtar"><img alt="40x40" [src]="win.photo.thumbnail || baseFriend.photo" width="40" height="40"></span>
+          <span class="friends_detail">
+            <span class="friend_name">{{ win.fullname }}</span>
+            <span class="friend_country">
+              {{win.city}}
+              <span *ngIf="win.country">
+              <span *ngIf="win.city && win.country.id">,</span>
+              {{win.country.text}}
+              </span>
+            </span>
+          </span>
+          <span class="level">
+            <span class="win_amount" *ngFor="let stake of win?.winnings">
+              {{((stake.type=='coins' || (stake.amount!=1)) ? stake.amount : '')}}
+              {{stake.name}}
+              {{ stake.type=='coins' ? 'PC' : '' }}
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<div>
+    <app-header></app-header>
+    <div class="main_content">
+        <div class="top_title clearfix">
+            <a [routerLink]="['/friends']" class="back_link"><i class="icon icon_left_arrow"></i>Back</a>
+            <div class="page_name">My Friends</div>
+        </div>
+        <div class="search_form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <i class="icon icon_search"></i>
+                    <input #serchfield class="form-control search-field"
+                           name="search" placeholder="Search..."
+                           type="text"
+                           autocomplete="off"
+                           (keyup)="searchHandler(serchfield.value)">
+                </div>
+            </form>
+        </div>
+        <friend-list [friends]="friends"></friend-list>
+        <invite-friend type="middle"></invite-friend>
+    </div>
+</div>
